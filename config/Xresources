@@ -1,0 +1,30 @@
+xterm*utf8: true
+xterm*cursorBlink: false
+xterm*selectToClipboard: true
+xterm*background: #fdf9ee
+xterm*foreground: black
+xterm*renderFont: true
+xterm*faceName: Fira Code
+xterm*faceSize: 13
+xterm*saveLines: 4000
+xterm*faceSize1: 13
+xterm*faceSize2: 15
+xterm*faceSize3: 17
+xterm*faceSize4: 18
+xterm*faceSize5: 20
+xterm*faceSize6: 22
+xterm*VT100.translations: #override \
+    Ctrl <Key> minus: smaller-vt-font() \n\
+    Ctrl <Key> plus: larger-vt-font() \n\
+    Ctrl <Key> 0: set-vt-font(d)
+
+xft.dpi: 96.0
+xft.hinting: true
+xft.hintstyle: hintslight
+xft.antialias: true
+xft.rgba: rgb
+xft.autohint: false
+xft.lcdfilter: lcddefault
+
+emacs.fontBackend: xft
+
